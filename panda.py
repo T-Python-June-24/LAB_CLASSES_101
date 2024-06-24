@@ -11,6 +11,3 @@ class Panda:
     
     def sleep(self, hours):
         return f"{self.name} is sleeping for {hours} hours."
-
-    def __str__(self):
-        return f"Panda(Name: {self.name}, Age: {self.age}, Weight: {self.weight} kg, Habitat: {self.habitat})"

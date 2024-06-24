@@ -11,4 +11,3 @@ for panda in pandas:
     print(panda)
     print(panda.eat("bamboo"))
     print(panda.sleep(10))
-    print() 
