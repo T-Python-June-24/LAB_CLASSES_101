@@ -15,25 +15,4 @@ class Panda:
 
 
 
-'''
 
-class panda: 
- 
-    def __init__(self, name:str, age:int, food:str ,weight:int , color:str) -> None: 
-        self.name= name 
-        self.age = age 
-        self.food = food 
-        self.weight=weight 
-        self.color=color 
-
- 
-
-    def color(self , color:str): 
-        print(f" panda name is {self.name} color  {color} visits") 
-
-
-    def number(self , name):
-        print(f" panda name is {self.name} number  {name} visits") 
-'''
-
- 

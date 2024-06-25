@@ -1,4 +1,4 @@
-from panda import panda
+from panda import Panda
  
  
 def main(): 
@@ -25,55 +25,3 @@ def main():
     Panda4.upd_weight(115) 
  
 main()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-'''
-from panda import panda
-
-panda1 = panda("marco", 5, "cereal" , 10 , "black") 
-panda2 = panda("coco", 7, "cereal" , 15 ,"red") 
-panda3 = panda("minig", 19,"leaves", 60,"yello") 
-panda4 = panda("mincoch", 30,"leaves", 100, "white") 
- 
- 
-print(panda1.name) 
-print(panda3.age)
-print(panda3.food)
-print(panda3.weight)
-
-
-panda1.color("black")
-panda1.number(1)
-
-panda2.color("red")
-panda2.number(2)
-
-panda3.color("yellow")
-panda3.number(3)
-
-panda4.color("white")
-panda4.number(4)
-
-'''
