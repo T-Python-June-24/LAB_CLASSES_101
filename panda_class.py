@@ -5,10 +5,17 @@ class Panda:
         self.gender = gender
         self.location = location
 
-    def eat(self):
-        print(f"{self.name} is a {self.gender}.")
-        self.location 
-        print(f"{self.name}'location in {self.location}.")
+    def eat(self,name:str,location:str,gender:int):
+         self.location = location
+         self.name = name
+         self.gender = gender
+         print(f"{name} is a {gender}.")
+         print(f"{name}'location in {location}.")
 
-    def sleep(self):
+    def sleep(self,name:str):
+        self.name = name
         print(f"{self.name} is sleeping 🛌.")
+        
+if __name__ == "__main__":
+    print("hello")
+    
